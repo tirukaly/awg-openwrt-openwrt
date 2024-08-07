@@ -12,13 +12,13 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.4"
+          - tag: "23.05.3"
             pkgarch: mips_24kc
-            target: ath79
-            subtarget: nand
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            target: mediatek
+            subtarget: filogic
+            vermagic: "83850846aeb31a278a010941bbebf326"
           - tag: "23.05.0"
-            pkgarch: mipsel_24kc
+            pkgarch: aarch64_cortex-a53
             target: ramips
             subtarget: mt7621
             vermagic: "9c242f353867f49a96054ff8c9f2c460"
